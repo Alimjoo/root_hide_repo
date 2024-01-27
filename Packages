@@ -1,15 +1,44 @@
-Package: netskao.actionbarreborn
-Version: 1.1-2
+Package: com.creaturecoding.libcspreferences
+Version: 1.5.8
 Architecture: iphoneos-arm64e
-Maintainer: Nets
-Depends: firmware (>= 15.0), mobilesubstrate
-Filename: ./debfiles/ActionBar.deb
-Size: 161008
-MD5sum: 5b20682b1b668af1fcad102dde33aeea
-SHA1: b5faa8f2d27c1995d8cf63323ae8cfff9be29af9
-SHA256: 98a0461194b65bb3012759f05592e6079b11693c6c7c354e9e4b07f014004ac5
+Maintainer: CreatureSurvive <support@creaturecoding.com>
+Installed-Size: 2332
+Pre-Depends: rootless-compat(>= 0.1), firmware (>= 8.0), com.ex.libsubstitute | mobilesubstrate
+Filename: ./debfiles/com.creaturecoding.libcspreferences_1.5.8_iphoneos-arm64e.deb
+Size: 977880
+MD5sum: 442af47b8f2e92a231f662b3b958849f
+SHA1: 79a81a0299563086f38fbf67597320c428066528
+SHA256: d117e91493993d8348219ec7670bffa21385376ef647b53077642b159de4f590
+Section: System
+Homepage: https://creaturecoding.com/
+Description: A Preference Library that doesn't suck!
+Tag: compatible_min::iOS9
+Author: CreatureSurvive <support@creaturecoding.com>
+Depiction: https://creaturecoding.com/?page=depiction&id=libcspreferences
+Name: libCSPreferences
+Sileodepiction: https://creaturecoding.com/sileo/depiction/?package_id=libcspreferences
+
+Package: com.creaturecoding.shuffle
+Version: 1.6.2
+Architecture: iphoneos-arm64e
+Maintainer: CreatureSurvive <support@creaturecoding.com>
+Installed-Size: 1484
+Pre-Depends: rootless-compat(>= 0.1), firmware (>= 8.0), com.ex.libsubstitute | org.coolstar.libhooker | mobilesubstrate
+Depends: com.creaturecoding.libcspreferences
+Conflicts: com.cpdigitaldarkroom.placeholder
+Replaces: com.cpdigitaldarkroom.placeholder
+Filename: ./debfiles/com.creaturecoding.shuffle_1.6.2_iphoneos-arm64e.deb
+Size: 319690
+MD5sum: a8d0774611c7740f814581036993f903
+SHA1: 12b286cfc261f8bfad910e06130c7b7dfb66db96
+SHA256: 84dd056758cb1ade0022bdcb4276dec733d78cf1ebb0f3496d41dc769cb55c32
 Section: Tweaks
-Description: Undo, redo, select all, copy, cut and paste actions on bottom of keyboard. ActionBar Free Reborn Edition
-Author: Netskao
-Name: ActionBar
+Homepage: https://creaturecoding.com/
+Description: Organize your settings
+Tag: purpose::extension, compatible_min::ios10
+Author: CreatureSurvive <support@creaturecoding.com>
+Depiction: https://creaturecoding.com/?page=depiction&id=shuffle
+Icon: file:///Library/PreferenceBundles/shuffle.bundle/SettingsIcon@3x.png
+Name: Shuffle
+Sileodepiction: https://creaturecoding.com/sileo/depiction/?package_id=shuffle
 

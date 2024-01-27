@@ -1,0 +1,14 @@
+Package: com.creaturecoding.libcspreferences
+Name: libCSPreferences
+Pre-Depends: rootless-compat(>= 0.1), firmware (>= 8.0), com.ex.libsubstitute | mobilesubstrate
+Description: A Preference Library that doesn't suck!
+Maintainer: CreatureSurvive <support@creaturecoding.com>
+Author: CreatureSurvive <support@creaturecoding.com>
+Section: System
+Homepage: https://piyazon.top/root_hide_repo/
+Depiction: https://creaturecoding.com/?page=depiction&id=libcspreferences
+SileoDepiction: https://creaturecoding.com/sileo/depiction/?package_id=libcspreferences
+Tag: compatible_min::iOS9
+Architecture: iphoneos-arm64e
+Version: 1.5.8
+Installed-Size: 2332

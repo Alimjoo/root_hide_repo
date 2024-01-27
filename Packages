@@ -5,10 +5,10 @@ Maintainer: CreatureSurvive <support@creaturecoding.com>
 Installed-Size: 2332
 Pre-Depends: rootless-compat(>= 0.1), firmware (>= 8.0), com.ex.libsubstitute | mobilesubstrate
 Filename: ./debfiles/com.creaturecoding.libcspreferences_1.5.8_iphoneos-arm64e.deb
-Size: 977880
-MD5sum: 442af47b8f2e92a231f662b3b958849f
-SHA1: 79a81a0299563086f38fbf67597320c428066528
-SHA256: d117e91493993d8348219ec7670bffa21385376ef647b53077642b159de4f590
+Size: 335656
+MD5sum: 04fdf5ea2935f2673f7ac576b73b2c39
+SHA1: 59e2fcfb1fb200c91bc161dba91a82bb41fb481f
+SHA256: 6234442e479c5c9fd5f948167ed82f47cd15e5209bcd3c2c3f0554cb163f10c6
 Section: System
 Homepage: https://piyazon.top/root_hide_repo/
 Description: A Preference Library that doesn't suck!
